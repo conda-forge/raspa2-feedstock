@@ -1,5 +1,5 @@
 {% set name = "RASPA2" %}
-{% set version = "2.0.41" %}
+{% set version = "2.0.42" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/iRASPA/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 85d99ad63b83541835f92f09dd41a3c6193a2e4d6ad45baee58ecf3b85713394
+  sha256: b3fd832688163359b7b459370e1674db562abe13558cc60c1551bf3e48e62d82
 
 build:
   number: 0
